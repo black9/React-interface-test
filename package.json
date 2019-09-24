@@ -12,6 +12,8 @@
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-dialog": "^5.6.0",
+    "react-native-material-dialog": "^0.7.6",
     "react-native-star-rating": "^1.1.0",
     "react-native-vector-icons": "^6.6.0",
     "react-native-web": "^0.11.7",
