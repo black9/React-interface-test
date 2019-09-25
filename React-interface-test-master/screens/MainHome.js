@@ -8,11 +8,9 @@ import {
     Platform,
     StatusBar,
     ScrollView,
-    Image,
-    Dimensions
+    Dimensions,
 } from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons'
-import Category from './components/Explore/Category'
 
 const { height, width } = Dimensions.get('window')
 
@@ -30,16 +28,13 @@ class MainHome extends Component {
             <SafeAreaView style={{ flex: 1 }}>
                 <View style={{ flex: 1 }}>
 
-
-
-
-                    <ScrollView
-                        scrollEventThrottle={16}
-                    >
-                        <View style={{ flex: 1, backgroundColor: 'white', paddingTop: 10 }}>
-                            <Text style={{ fontSize: 30, fontWeight: '800', paddingHorizontal: 20, padding: 10 }}>
+                <Text style={{ fontSize: 30, fontWeight: '800', paddingHorizontal: 20, padding: 10 }}>
                                 투자정보
                             </Text>
+                    <ScrollView
+                        scrollEventThrottle={16}>
+
+                        <View style={{ flex: 1, backgroundColor: 'white', paddingTop: 10 }}>
 
                             <View style={{ height: this.startHeaderHeight, backgroundColor: 'white', borderBottomWidth: 1, borderBottomColor: '#dddddd' }}>
                                 <View style={{

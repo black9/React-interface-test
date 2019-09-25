@@ -37,11 +37,11 @@ class MyInvest extends Component{
                     titleColor="#F0F0F0"
                     colorAccent="#6ABED0"
                     backgroundColor="#181712"
-                    okLabel="응"
+                    okLabel="네"
                     onOk={() => {
                         this.setState({ basicCustomColorsVisible: false });
                     }}
-                    cancelLabel="아니"
+                    cancelLabel="아니요"
                     onCancel={() => {
                         this.setState({ basicCustomColorsVisible: false });
                     }}
